@@ -1,0 +1,11 @@
+name: Card Moved Notifier
+
+on:
+  project_card:
+      types: [moved]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: jenschelkopf/project-card-moved-notification@1.0
