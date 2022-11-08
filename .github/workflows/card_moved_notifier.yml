@@ -1,4 +1,4 @@
-name: Card Moved Notifier
+name: Notify assignees when their card moves between columns
 
 on:
   project_card:
